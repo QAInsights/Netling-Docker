@@ -7,13 +7,13 @@
 [![](https://img.shields.io/badge/%E2%9D%A4-YouTube%20Channel-0a0a0a.svg?style=flat&colorA=1EAEDB)](https://www.youtube.com/user/QAInsights?sub_confirmation=1)
 [![](https://img.shields.io/badge/donate-paypal-1EAEDB)](https://www.paypal.com/paypalme/NAVEENKUMARN)
 
-# What is Netling?
+# 🙋‍♂️ What is Netling?
 
 > Netling is a load tester client for easy web testing. It is extremely fast while using little CPU or memory. It is an open source project. Developed by [Tore Lervik](https://github.com/hallatore/Netling).
 
 [Download Netling](https://github.com/hallatore/Netling)
 
-# How to use this Windows Docker for Netling?
+# 🗜 How to use this Windows Docker for Netling?
 
 You can build the image your own or you can pull it from Docker Hub using `docker pull qainsights/netling`.
 
@@ -24,7 +24,7 @@ docker build -t <image_name> .
 ```
 E.g. `docker build -t netling .`
 
-# How to run a Windows container?
+# ▶ How to run a Windows container?
 
 To run Netling for `https://example.com` using `1` thread and `10 seconds` duration, issue the below command.
 
@@ -37,7 +37,7 @@ Output
 
 ```
 
-# How to mound the volume to the container?
+# ⛰ How to mount the volume to the container?
 
 To download the output of Netling, you can mount the volume using the below command.
 
