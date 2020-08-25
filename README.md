@@ -34,15 +34,40 @@ docker run netling https://example.com -t 1 -d 10
 
 Output
 ```
+********************************************************************
+Execution has been started in CLI mode for the following args: https://example.com -t 1 -d 10
 
+Running 10s test with 1 threads @ https://example.com/
+
+226 requests in 10.02s
+    Requests/sec:   23
+    Bandwidth:      0 mbit
+    Errors:         0
+Latency
+    Median:         33.603 ms
+    StdDev:         31.821 ms
+    Min:            20.958 ms
+    Max:            272.510 ms
+
+ ██
+ ██
+ ████
+ █████
+ ██████
+ ███████
+███████████████████   █  █   █                █     █                █         █
+20.958 ms =========================================================== 272.510 ms
+
+Execution has been completed. Output has been stored at .\Netling-Output.txt
+********************************************************************
 ```
 
 # ⛰ How to mount the volume to the container?
 
-To download the output of Netling, you can mount the volume using the below command.
+To download the output of Netling, you can mount the volume using the below command. After the execution, you can view the output in your host.
 
 ```
-
+ docker run -v C:\Tools\Netling.ConsoleClient.netcore2.1.Win10-x64:C:\Netling.ConsoleClient.netcore2.1.Win10-x64  qainsights/netling https://example.com -t 1 -d 10
 ```
 
 # 💲 Donate
