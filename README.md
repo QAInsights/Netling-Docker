@@ -7,11 +7,15 @@
 [![](https://img.shields.io/badge/%E2%9D%A4-YouTube%20Channel-0a0a0a.svg?style=flat&colorA=1EAEDB)](https://www.youtube.com/user/QAInsights?sub_confirmation=1)
 [![](https://img.shields.io/badge/donate-paypal-1EAEDB)](https://www.paypal.com/paypalme/NAVEENKUMARN)
 
+![Netling](./assets/Netling.png)
+
 # 🙋‍♂️ What is Netling?
 
 > Netling is a load tester client for easy web testing. It is extremely fast while using little CPU or memory. It is an open source project. Developed by [Tore Lervik](https://github.com/hallatore/Netling).
 
 [Download Netling](https://github.com/hallatore/Netling)
+
+For more details, please refer to my [blog article](https://qain.si/netling).
 
 # 🗜 How to use this Windows Docker for Netling?
 
