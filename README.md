@@ -19,7 +19,7 @@ For more details, please refer to my [blog article](https://qain.si/netling).
 
 # 🗜 How to use this Windows Docker for Netling?
 
-You can build the image your own or you can pull it from [Docker Hub](https://hub.docker.com/repository/docker/qainsights/netling) using `docker pull qainsights/netling`.
+You can build the image your own or you can pull it from [Docker Hub](https://hub.docker.com/r/qainsights/netling) using `docker pull qainsights/netling`.
 
 To build your own image, clone this repository, change the directory to `Netling-Docker` and issue the below command.
 
